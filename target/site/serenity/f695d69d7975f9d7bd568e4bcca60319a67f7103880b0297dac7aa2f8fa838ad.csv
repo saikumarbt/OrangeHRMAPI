@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Admin test","Admin - 1.Get Users","SUCCESS","2019-09-23T19:59:13.349+05:30[Asia/Calcutta]","0.0","0.39"
+"Admin test","Admin - 3.Get Organization Information","SUCCESS","2019-09-23T19:59:14.081+05:30[Asia/Calcutta]","0.0","0.45"
+"Admin test","Admin - 2.User Login","SUCCESS","2019-09-23T19:59:14.531+05:30[Asia/Calcutta]","0.0","0.63"

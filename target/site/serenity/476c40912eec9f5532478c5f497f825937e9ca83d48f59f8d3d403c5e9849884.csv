@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"O auth2 test","Validate the generated access token by retrieving Admin user details","SUCCESS","2019-09-23T20:00:11.866+05:30[Asia/Calcutta]","0.0","0.61"

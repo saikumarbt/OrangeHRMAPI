@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Employee test","Employee - 01.Save Employee","FAILURE","2019-09-23T19:59:16.487+05:30[Asia/Calcutta]","0.0","53.56"
+"Employee test","Employee - 02.Employee Detail","FAILURE","2019-09-23T20:00:10.619+05:30[Asia/Calcutta]","0.0","0.51"
+"Employee test","Employee - 03.Update Employee Detail (Dob, MaritalStatus, Gender & Nationality","FAILURE","2019-09-23T20:00:11.137+05:30[Asia/Calcutta]","0.0","0.5"

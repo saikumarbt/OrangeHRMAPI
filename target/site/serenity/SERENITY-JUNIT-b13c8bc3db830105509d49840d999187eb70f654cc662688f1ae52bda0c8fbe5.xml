@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="com.orangehrm.tests.EmployeeTest" skipped="0" tests="4" time="55.13" timestamp="2019-09-23 07:59:16"><testcase classname="com.orangehrm.tests.EmployeeTest" name="Employee - 01.Save Employee"><failure message="1 expectation failed.&#10;Expected header &quot;Content-Type&quot; was not &quot;application/json&quot;, was &quot;text/html; charset=UTF-8&quot;. Headers are:&#10;Date=Mon, 23 Sep 2019 14:29:16 GMT&#10;Server=Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.7&#10;X-Powered-By=PHP/7.3.7&#10;Set-Cookie=PHPSESSID=7nkde2u4s8027jllj352vjp6ne; path=/; HttpOnly&#10;Expires=Thu, 19 Nov 1981 08:52:00 GMT&#10;Cache-Control=no-store, no-cache, must-revalidate&#10;Pragma=no-cache&#10;Content-Length=0&#10;Connection=close&#10;Content-Type=text/html; charset=UTF-8&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected header "Content-Type" was not "application/json", was "text/html; charset=UTF-8". Headers are:
+Date=Mon, 23 Sep 2019 14:29:16 GMT
+Server=Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.7
+X-Powered-By=PHP/7.3.7
+Set-Cookie=PHPSESSID=7nkde2u4s8027jllj352vjp6ne; path=/; HttpOnly
+Expires=Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control=no-store, no-cache, must-revalidate
+Pragma=no-cache
+Content-Length=0
+Connection=close
+Content-Type=text/html; charset=UTF-8
+</failure><system-err>1 expectation failed.
+Expected header "Content-Type" was not "application/json", was "text/html; charset=UTF-8". Headers are:
+Date=Mon, 23 Sep 2019 14:29:16 GMT
+Server=Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.7
+X-Powered-By=PHP/7.3.7
+Set-Cookie=PHPSESSID=7nkde2u4s8027jllj352vjp6ne; path=/; HttpOnly
+Expires=Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control=no-store, no-cache, must-revalidate
+Pragma=no-cache
+Content-Length=0
+Connection=close
+Content-Type=text/html; charset=UTF-8
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:91)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.specification(ValidatableResponseOptionsImpl.java:321)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:298)&#13;
+com.orangehrm.tests.EmployeeTest.testCreateEmployee(EmployeeTest.java:49)&#13;
+</system-err></testcase><testcase classname="com.orangehrm.tests.EmployeeTest" name="Employee - 05.Employee Search"/><testcase classname="com.orangehrm.tests.EmployeeTest" name="Employee - 02.Employee Detail"><failure message="1 expectation failed.&#10;Expected header &quot;Content-Type&quot; was not &quot;application/json&quot;, was &quot;text/html; charset=utf-8&quot;. Headers are:&#10;Date=Mon, 23 Sep 2019 14:30:10 GMT&#10;Server=Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.7&#10;X-Powered-By=PHP/7.3.7&#10;Set-Cookie=PHPSESSID=nocfum02ftijq3e0jqddc88f5j; path=/; HttpOnly&#10;Expires=0&#10;Cache-Control=must-revalidate, post-check=0, pre-check=0, max-age=0, private&#10;Pragma=no-cache&#10;Status=404 Not Found&#10;X-Frame-Options=DENY&#10;Keep-Alive=timeout=5, max=100&#10;Connection=Keep-Alive&#10;Transfer-Encoding=chunked&#10;Content-Type=text/html; charset=utf-8&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected header "Content-Type" was not "application/json", was "text/html; charset=utf-8". Headers are:
+Date=Mon, 23 Sep 2019 14:30:10 GMT
+Server=Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.7
+X-Powered-By=PHP/7.3.7
+Set-Cookie=PHPSESSID=nocfum02ftijq3e0jqddc88f5j; path=/; HttpOnly
+Expires=0
+Cache-Control=must-revalidate, post-check=0, pre-check=0, max-age=0, private
+Pragma=no-cache
+Status=404 Not Found
+X-Frame-Options=DENY
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+Content-Type=text/html; charset=utf-8
+</failure><system-err>1 expectation failed.
+Expected header "Content-Type" was not "application/json", was "text/html; charset=utf-8". Headers are:
+Date=Mon, 23 Sep 2019 14:30:10 GMT
+Server=Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.7
+X-Powered-By=PHP/7.3.7
+Set-Cookie=PHPSESSID=nocfum02ftijq3e0jqddc88f5j; path=/; HttpOnly
+Expires=0
+Cache-Control=must-revalidate, post-check=0, pre-check=0, max-age=0, private
+Pragma=no-cache
+Status=404 Not Found
+X-Frame-Options=DENY
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+Content-Type=text/html; charset=utf-8
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:91)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.specification(ValidatableResponseOptionsImpl.java:321)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:298)&#13;
+com.orangehrm.tests.EmployeeTest.testGetEmployeeDetails(EmployeeTest.java:60)&#13;
+</system-err></testcase><testcase classname="com.orangehrm.tests.EmployeeTest" name="Employee - 03.Update Employee Detail (Dob, MaritalStatus, Gender &amp; Nationality"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)&#13;
+com.orangehrm.tests.EmployeeTest.testUpdateEmployeeDetails(EmployeeTest.java:73)&#13;
+</system-err></testcase></testsuite>

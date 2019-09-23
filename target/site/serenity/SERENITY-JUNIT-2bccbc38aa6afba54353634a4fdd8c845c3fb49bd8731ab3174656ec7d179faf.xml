@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="com.orangehrm.tests.CustomerTest" skipped="0" tests="2" time="0.82" timestamp="2019-09-23 07:59:15"><testcase classname="com.orangehrm.tests.CustomerTest" name="Time - 2.Save Customers"/><testcase classname="com.orangehrm.tests.CustomerTest" name="Time - 1.Get Customers"/></testsuite>

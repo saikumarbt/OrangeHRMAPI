@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Orange HRM - Admin" skipped="0" tests="2" time="0.95" timestamp="2019-09-23 07:59:07"><testcase name="Get Admin User List"/><testcase name="Get Organization details"/></testsuite>

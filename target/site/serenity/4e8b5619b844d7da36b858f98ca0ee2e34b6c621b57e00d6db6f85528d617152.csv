@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Orange HRM - Employee","Get the list of Employees","SUCCESS","2019-09-23T19:59:08.519+05:30[Asia/Calcutta]","0.0","0.29"
+"Orange HRM - Employee","Add an Employee","SUCCESS","2019-09-23T19:59:08.81+05:30[Asia/Calcutta]","0.0","0.29"
+"Orange HRM - Employee","Validate if the employee has been added","SUCCESS","2019-09-23T19:59:09.099+05:30[Asia/Calcutta]","0.0","0.56"
+"Orange HRM - Employee","Validate if the employee details are updated","SUCCESS","2019-09-23T19:59:09.657+05:30[Asia/Calcutta]","0.0","0.47"
