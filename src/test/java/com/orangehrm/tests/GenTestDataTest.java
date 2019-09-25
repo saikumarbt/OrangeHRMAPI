@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import com.orangehrm.utils.TestUtils;
 
-public class TestDataGen {
+public class GenTestDataTest {
 
 	@Test
 	public void testDoBGen() {
